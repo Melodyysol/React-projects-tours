@@ -86,6 +86,7 @@ function ProjectQuery({ fetchTour }: FetchTourProps) {
     },
 
     onError: (_err, newTour, context) => {
+      console.log(newTour)
       if (context?.previousTours) {
         queryClient.setQueryData<Tour[]>(['tours'], context.previousTours)
       }

@@ -36,7 +36,7 @@ const ContentfulCMS = () => {
               transition={{ duration: 0.35, ease: "easeInOut" }}
             >
               <NavLink to={project.path} className='flex flex-col items-center bg-white rounded cursor-pointer'>
-                <img src={project.image} alt="" className='rounded-t' />
+                <img src={project.image} alt="" className='rounded-t h-50 object-cover' />
                 <h3 className='text-sm py-4'>{project.title}</h3>
               </NavLink>
             </motion.div>

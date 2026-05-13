@@ -1,4 +1,21 @@
-import heroImg from '../../assets/item-1.jpeg'
+import img2 from '../../assets/images/img2.png'
+import img3 from '../../assets/images/img3.png'
+import img4 from '../../assets/images/img4.png'
+import img5 from '../../assets/images/img5.png'
+import img6 from '../../assets/images/img6.png'
+import img7 from '../../assets/images/img7.png'
+import img8 from '../../assets/images/img8.png'
+import img9 from '../../assets/images/img9.png'
+import img10 from '../../assets/images/img10.png'
+import img11 from '../../assets/images/img11.png'
+import img12 from '../../assets/images/img12.png'
+import img13 from '../../assets/images/img13.png'
+import img14 from '../../assets/images/img14.png'
+import img15 from '../../assets/images/img15.png'
+// import img16 from '../../assets/images/img16.png'
+// import img17 from '../../assets/images/img17.png'
+// import img18 from '../../assets/images/img18.png'
+
 
 type Project = {
   id: number;
@@ -9,93 +26,73 @@ type Project = {
 
 const projects: Project[] = [{
   id: 1,
-  title: 'Tour',
-  image: heroImg,
-  path: '/tour',
-},{
-  id: 2,
-  title: 'Reviews',
-  image: heroImg,
-  path: '/review',
-}, {
-  id: 3,
-  title: 'Cart Reducer',
-  image: heroImg,
-  path: '/cart-reducer',
-}, {
-  id: 4,
-  title: 'Cart',
-  image: heroImg,
-  path: '/cart',
-},{
-  id: 5,
-  title: 'Color Generator',
-  image: heroImg,
-  path: '/colorGenerator',
-}, {
-  id: 6,
-  title: 'Grocery Bud',
-  image: heroImg,
-  path: '/groceryBud',
-}, {
-  id: 7,
-  title: 'Lorems',
-  image: heroImg,
-  path: '/lore',
-}, {
-  id: 8,
-  title: 'Menu',
-  image: heroImg,
-  path: '/menu',
-},{
-  id: 9,
-  title: 'Context',
-  image: heroImg,
-  path: '/context',
-}, {
-  id: 10,
-  title: 'NavBar',
-  image: heroImg,
-  path: '/navBsr',
-}, {
-  id: 11,
-  title: 'Strapi Submenus',
-  image: heroImg,
-  path: '/strapi',
-}, {
-  id: 12,
-  title: 'Questions',
-  image: heroImg,
-  path: '/question',
-}, {
-  id: 13,
-  title: 'Slider',
-  image: heroImg,
-  path: '/slider',
-}, {
-  id: 14,
-  title: 'Tour',
-  image: heroImg,
-  path: '/tour',
-}, {
-  id: 15,
-  title: 'Tour',
-  image: heroImg,
+  title: 'Tours',
+  image: img2,
   path: '/tours',
 }, {
-  id: 16,
-  title: 'Tour',
-  image: heroImg,
-  path: '/tourPage',
+  id: 2,
+  title: 'Reviews',
+  image: img3,
+  path: '/reviews',
 }, {
-  id: 17,
-  title: 'Images',
-  image: heroImg,
-  path: '/ImageQuery',
+  id: 3,
+  title: 'Accordition',
+  image: img4,
+  path: '/accordition',
+},{
+  id: 4,
+  title: 'Menu',
+  image: img5,
+  path: '/menu',
 }, {
-  id: 18,
+  id: 5,
+  title: 'Tabs',
+  image: img6,
+  path: '/tabs',
+}, {
+  id: 6,
+  title: 'Slider',
+  image: img7,
+  path: '/slider',
+}, {
+  id: 7 ,
+  title: 'Lorem Ipsum',
+  image: img8,
+  path: '/lorem',
+},{
+  id: 8,
+  title: 'Color Generator',
+  image: img9,
+  path: '/colorGenerator',
+}, {
+  id: 9,
+  title: 'Grocery Bud',
+  image: img10,
+  path: '/groceryBud',
+}, {
+  id: 10,
+  title: 'Navbar',
+  image: img11,
+  path: '/navBar',
+}, {
+  id: 11,
+  title: 'Sidebar and Modal',
+  image: img12,
+  path: '/context',
+}, {
+  id: 12,
+  title: 'Strapi Menu',
+  image: img13,
+  path: '/strapi',
+}, {
+  id: 13,
+  title: 'Cart',
+  image: img14,
+  path: '/cart',
+}, {
+  id: 14,
   title: 'Unsplash Image',
-  image: heroImg,
+  image: img15,
   path: '/unsplashImage',
 }]
 

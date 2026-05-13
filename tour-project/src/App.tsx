@@ -34,10 +34,10 @@ function App() {
       <Route path='/context' element={<Context />} />
       <Route path='/navBar' element={<Navbar />} />
       <Route path='/strapi' element={<StrapiSubmenus />} />
-      <Route path='/question' element={<Question />} />
-      <Route path='/review' element={<Reviews />} />
+      <Route path='/accordition' element={<Question />} />
+      <Route path='/reviews' element={<Reviews />} />
       <Route path='/slider' element={<Slider />} />
-      <Route path='/tab' element={<Tab />} />
+      <Route path='/tabs' element={<Tab />} />
       <Route path='/tour' element={<Project />} />
       <Route path='/tours' element={<Projects />} />
       <Route path='/tourPage' element={<TourPage />} />
